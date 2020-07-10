@@ -45,31 +45,16 @@ justify-content: center;
   height: 30px;
 }
 
-#dropdown-div {
+#dropdown-div, #radio-div, #checkbox-group{
   margin-top: 20px;
   text-align: center;
   color: white;
   font-size: 22px;
 }
 
-#radio-div {
-  margin-top: 20px;
-  text-align: center;
-  color: white;
-  font-size: 22px;
-
-}
 
 #radio-div label {
   font-size: 18px;
-}
-
-#checkbox-group {
-  margin-top: 20px;
-  text-align: center;
-  color: white;
-  font-size: 22px;
-
 }
 
 #checkbox-group ul {
@@ -78,4 +63,26 @@ justify-content: center;
 
 #checkbox-group label {
   font-size: 18px;;
+}
+
+#submit-message{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+#submit-message textarea{
+  padding: 2%;
+  height: 100px;
+}
+
+#submit-message p{
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+#submit{
+  width: 70px;
+  height: 40px;
 }
