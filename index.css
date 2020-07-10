@@ -29,14 +29,53 @@ justify-content: center;
 .input-group{
   display: flex;
   flex-direction: column;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 .input-group label{
   margin-top: 5%;
   font-weight: bold;
   color: white;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .input-group input{
   height: 30px;
+}
+
+#dropdown-div {
+  margin-top: 20px;
+  text-align: center;
+  color: white;
+  font-size: 22px;
+}
+
+#radio-div {
+  margin-top: 20px;
+  text-align: center;
+  color: white;
+  font-size: 22px;
+
+}
+
+#radio-div label {
+  font-size: 18px;
+}
+
+#checkbox-group {
+  margin-top: 20px;
+  text-align: center;
+  color: white;
+  font-size: 22px;
+
+}
+
+#checkbox-group ul {
+  list-style: none;
+}
+
+#checkbox-group label {
+  font-size: 18px;;
 }
