@@ -12,12 +12,23 @@
 
   <div id="form-div">
     <form id="form" action="">
-      <label id="name-label" for="name">NAME</label>
+      <label id="name" for="name">NAME</label>
       <input type="text" placeholder="Write your name here">
-      <label id="email-label">EMAIL</label>
+      <label id="email">EMAIL</label>
       <input id="email" type="email" required placeholder="Write your email" >
-      <label id="number-label">AGE</label>
-      <input id="number" type="number" required placeholder="Age" min="18" max="80" >
+      <label id="age">AGE</label>
+      <input id="number" type="number" placeholder="Age" >
+      <select>
+          <option id="dropdown">student</option>
+      </select>
+      <div id="input-group">
+        <input type="radio" name="Definitely" />
+        <label for='Definitely'>Definitely</label><br/>
+        <input type="radio" name="Maybe" />
+        <label for='Maybe'>Maybe</label><br/>
+        <input type="radio" name="Not sure" />
+        <label for='Not sure'>Not sure</label><br/>
+      </div>
     </form>
   </div>
 
