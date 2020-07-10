@@ -6,3 +6,8 @@
     text-align: center;
     font-size: 21px;
 }
+
+#form-div {
+  display: flex;
+  flex-direction: column;
+}
