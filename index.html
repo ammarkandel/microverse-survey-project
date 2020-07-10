@@ -12,14 +12,16 @@
 
   <div id="form-div">
     <form id="survey-form" action="">
-      <label for="name-label">NAME</label>
+      <label id="name-label" for="name-label">NAME</label>
       <input id="name" type="text" required placeholder="Write your name here">
       <label id="email-label">EMAIL</label>
       <input id="email" type="email" required placeholder="Write your email" >
       <label id="number-label">AGE</label>
-      <input id="number" type="number" required placeholder="Age" />
+      <input id="number" type="number" min="18" max="80" required placeholder="Age" />
       <select id="dropdown">
-          <option value='student'>student</option>
+          <option id="dropdown" value='student'>student</option>
+          <option id="dropdown" value='student'>master</option> 
+
       </select>
       <div id="input-group">
         <input type="radio" value="Definitely" name="radioButton" />
