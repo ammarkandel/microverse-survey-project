@@ -8,7 +8,7 @@
 }
 
 #form-div {
-  width: 300px;
+  width: 400px;
   margin-left: auto;
   margin-right: auto;
   
@@ -19,4 +19,24 @@
 flex-direction: column;
 justify-content: center;
 
+}
+
+#survey-form{
+  background-color: gray;
+  width: 100%;
+}
+
+.input-group{
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group label{
+  margin-top: 5%;
+  font-weight: bold;
+  color: white;
+}
+
+.input-group input{
+  height: 30px;
 }
