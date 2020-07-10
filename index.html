@@ -12,21 +12,21 @@
 
   <div id="form-div">
     <form id="survey-form" action="">
-      <label for="name">NAME</label>
-      <input id="name" type="text" placeholder="Write your name here">
-      <label id="email">EMAIL</label>
+      <label for="name-label">NAME</label>
+      <input id="name" type="text" required placeholder="Write your name here">
+      <label id="email-label">EMAIL</label>
       <input id="email" type="email" required placeholder="Write your email" >
-      <label id="age">AGE</label>
-      <input id="number" type="number" placeholder="Age" >
-      <select>
-          <option id="dropdown">student</option>
+      <label id="number-label">AGE</label>
+      <input id="number" type="number" required placeholder="Age" />
+      <select id="dropdown">
+          <option value='student'>student</option>
       </select>
       <div id="input-group">
-        <input type="radio" name="Definitely" />
+        <input type="radio" value="Definitely" name="radioButton" />
         <label for='Definitely'>Definitely</label><br/>
-        <input type="radio" name="Maybe" />
+        <input type="radio" value="maybe" name="radioButton" />
         <label for='Maybe'>Maybe</label><br/>
-        <input type="radio" name="Not sure" />
+        <input type="radio" value="notsure" name="radioButton" />
         <label for='Not sure'>Not sure</label><br/>
       </div>
 
