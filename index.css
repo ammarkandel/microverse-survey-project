@@ -1,13 +1,22 @@
 #title{
-    text-align: center;
-    padding: 2%;
+  text-align: center;
+  padding: 2%;
 }
 #description{
-    text-align: center;
-    font-size: 21px;
+  text-align: center;
+  font-size: 21px;
 }
 
 #form-div {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+#form {
   display: flex;
-  flex-direction: column;
+flex-direction: column;
+justify-content: center;
+
 }
